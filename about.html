@@ -37,7 +37,7 @@
         </div>
 
         <div class = "courses">
-            <div id = "9th">
+            <div id = "ninth">
                 <ul>
                     <li>Chemistry</li>
                     <li>Global History</li>
@@ -58,7 +58,7 @@
                     <li>Latin II</li>
                 </ul>
             </div>
-            <div id = "11th">
+            <div id = "eleven">
                 <ul>
                     <li>AP Physics 1</li>
                     <li>AP US History</li>
@@ -69,7 +69,7 @@
                 </ul>
             </div>
 
-            <div id = "12th">
+            <div id = "twelve">
                 <ul>
                     <li>AP Chemistry</li>
                     <li>AP Economics</li>
@@ -101,11 +101,57 @@
                 <li>Food</li>
             </ol>
         </div>
-
-
-
     </div>
 
+    <br>
+    <hr>
+    <br>
+    <div class = "about_headers faves">
+    <h1><strong>Favorites</strong></h1>
+    <br>
+    <form>
+        <label>Find out some of my favorite things!</label>
+        <select class = "favorites">
+            <option hidden disabled selected value = ""> -- Select an option -- </option>
+            <option value = "boogie">Song</option>
+            <option value = "gump">Movie</option>
+            <option value = "ops2">Game</option>
+            <option value = "chicken">Food</option>
+        </select>
+    </form>
+    <div id = "box">
+        <div id = "select">
+            <p>Choose an option from the dropdown to see my favorite thing of that category!</p>
+        </div>
+        <div id = "song">
+            <iframe width="1068" height="601" src="https://www.youtube.com/embed/jA_q7GXdKcE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div id = "movie">
+            <iframe width="1068" height="601" src="https://www.youtube.com/embed/bLvqoHBptjg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div id = "game">
+            <iframe width="1068px" height="601px" src="https://www.youtube.com/embed/x3tedlWs1XY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div id = "food">
+            <img src = "images/chicken.png" width = "1065px" height = "599px">
+        </div>
+    </div>
 
+        <br>
+        <hr>
+        <br>
+        <div class = "about_headers fact">
+        <h1><strong>Fun Facts</strong></h1>
+        <br>
+
+        <form>
+            <label>Learn some more interesting things about me!</label>
+            <button class = "favorites">Generate a fun fact</button>
+        </form>
+
+        <p id = "funfact"></p>
+        </div>
+        
+        <script src = "events.js"></script>
 </body>
 </html>
